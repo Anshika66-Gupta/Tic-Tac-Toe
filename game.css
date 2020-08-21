@@ -1,0 +1,44 @@
+.game_box{
+	position: absolute;
+	left: 50%;
+    transform: translate(-50%);
+    top: 120px;
+
+}
+.box{
+	position:relative;
+	float:left;
+	margin-left:5px;
+	width:70px;
+	height:70px;
+	background-color:#f3f3f3;
+	background-size:100%;
+	transform:scale(1);
+	transition:all 0.3s ease;
+	border-radius:10px;
+
+}
+.resize
+{
+	transform:scale(0.8);
+}
+.i{
+	position:relative;
+	float:top;
+	width:auto;
+	height:75px;
+
+}
+#reset{
+	background-color: #fffa90;
+	position:absolute;
+	top:360px;
+	left: 50%;
+    transform: translate(-50%);
+}
+.result{
+	position:absolute;
+	top:390px;
+	left: 50%;
+    transform: translate(-50%);
+}
